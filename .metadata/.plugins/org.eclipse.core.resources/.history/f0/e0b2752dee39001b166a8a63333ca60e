@@ -1,0 +1,9 @@
+package com.example.mapper_oracle;
+
+import com.example.domain.UserVO;
+
+public interface MypageMapper {
+
+	public UserVO myinfo(String id);
+
+}

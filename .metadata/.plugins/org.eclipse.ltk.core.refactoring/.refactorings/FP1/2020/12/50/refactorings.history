@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;FP/src/main/webapp/WEB-INF/views/masterNoticeUpdate.jsp&apos; to &apos;mnRead.jsp&apos;" description="Rename resource &apos;masterNoticeUpdate.jsp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/webapp/WEB-INF/views/masterNoticeUpdate.jsp" name="mnRead.jsp" stamp="1607238080260" updateReferences="true"/>
+</session>

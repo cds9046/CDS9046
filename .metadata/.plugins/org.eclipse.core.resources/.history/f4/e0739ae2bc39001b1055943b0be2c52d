@@ -1,0 +1,17 @@
+package com.example.mapper_oracle;
+
+import com.example.domain.GuVO;
+
+public interface GuMapper {
+	public void addMember(GuVO gvo);
+	public Integer max();
+	
+	//마스터 유저 삭제
+	public void deleteMember(String id);
+	
+	//그룹 코드 검색
+	public String searchgcode(String id);
+	
+	//그룹 인원수 검색
+	public Integer 
+}

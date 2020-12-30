@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.mapper_oracle.MypageMapper">
+
+	<select id = "myinfo" resultType = "com.example.domain.UserVO">
+		select * from tbl_user where id = #{id}
+	</select>
+	
+	<update id = "myinfoupdate">
+		update tbl_user set pw = #{pw}, name = #{name}, phone = #{phone}, addr = #{addr}, addrDetail = #{addrDetail}, 
+		email = #{email}, u_keyword = #{u_keyword}, image = #{image} 
+		where id = #{id}
+	</update>
+	
+	<select id = "myctotalCount" resultType = "int">
+		select count(*) from tbl_cir
+	</select> 
+</mapper>

@@ -1,0 +1,39 @@
+package com.example.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.example.domain.Criteria;
+import com.example.domain.PageMaker;
+import com.example.mapper_oracle.MasterMapper;
+
+@Controller
+public class MasterController {
+	@Autowired
+	MasterMapper mapper;
+	
+	@RequestMapping("master_userManage")
+	public void master_userManage(){
+		
+	}
+	
+	@RequestMapping("mulist")
+	public String mulist(Criteria cri, Model model){
+		PageMaker pm = new PageMaker();
+		pm.setCri(cri);
+		model.addAttribute("mulist", mapper.mulist(cri));
+		model.addAttribute("pm",pm);
+		return "master_userManage";
+	}
+	@RequestMapping("master_clubManage")
+	public void master_clubManage() {
+	}
+
+	@RequestMapping("master_groupManage")
+	public void master_groupManage() {
+	}
+
+	
+}

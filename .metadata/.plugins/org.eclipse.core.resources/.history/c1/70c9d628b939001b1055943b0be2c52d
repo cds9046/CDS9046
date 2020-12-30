@@ -1,0 +1,8 @@
+package com.example.service;
+
+public class Snippet {
+	<delete id = "mudelete">
+			delete from tbl_user where uno = #{uno}
+		</delete>
+}
+

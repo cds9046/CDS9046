@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="filter_imports;" key="filters_last_used"/>
+	<section name="JavaSearchPage">
+		<item value="8" key="HISTORY_SIZE"/>
+		<item value="false" key="CASE_SENSITIVE"/>
+		<item value="11" key="INCLUDE_MASK"/>
+		<section name="HISTORY6">
+			<item value="false" key="isCaseSensitive"/>
+			<item value="" key="javaElement"/>
+			<item value="0" key="scope"/>
+			<item value="11" key="includeMask"/>
+			<item value="오늘" key="pattern"/>
+			<item value="2" key="limitTo"/>
+			<item value="12" key="searchFor"/>
+			<list key="workingSets">
+			</list>
+		</section>
+		<section name="HISTORY7">
+			<item value="false" key="isCaseSensitive"/>
+			<item value="" key="javaElement"/>
+			<item value="0" key="scope"/>
+			<item value="11" key="includeMask"/>
+			<item value="정연" key="pattern"/>
+			<item value="2" key="limitTo"/>
+			<item value="12" key="searchFor"/>
+			<list key="workingSets">
+			</list>
+		</section>
+		<section name="HISTORY4">
+			<item value="false" key="isCaseSensitive"/>
+			<item value="" key="javaElement"/>
+			<item value="0" key="scope"/>
+			<item value="11" key="includeMask"/>
+			<item value="g_code" key="pattern"/>
+			<item value="3" key="limitTo"/>
+			<item value="13" key="searchFor"/>
+			<list key="workingSets">
+			</list>
+		</section>
+		<section name="HISTORY5">
+			<item value="false" key="isCaseSensitive"/>
+			<item value="" key="javaElement"/>
+			<item value="0" key="scope"/>
+			<item value="11" key="includeMask"/>
+			<item value="newEvent" key="pattern"/>
+			<item value="3" key="limitTo"/>
+			<item value="13" key="searchFor"/>
+			<list key="workingSets">
+			</list>
+		</section>
+		<section name="HISTORY2">
+			<item value="false" key="isCaseSensitive"/>
+			<item value="" key="javaElement"/>
+			<item value="0" key="scope"/>
+			<item value="11" key="includeMask"/>
+			<item value="fc-day-grid-event fc-h-event fc-event fc-start fc-end fc-draggable fc-resizable" key="pattern"/>
+			<item value="3" key="limitTo"/>
+			<item value="13" key="searchFor"/>
+			<list key="workingSets">
+			</list>
+		</section>
+		<section name="HISTORY3">
+			<item value="false" key="isCaseSensitive"/>
+			<item value="" key="javaElement"/>
+			<item value="0" key="scope"/>
+			<item value="11" key="includeMask"/>
+			<item value="allDay" key="pattern"/>
+			<item value="3" key="limitTo"/>
+			<item value="13" key="searchFor"/>
+			<list key="workingSets">
+			</list>
+		</section>
+		<section name="HISTORY0">
+			<item value="false" key="isCaseSensitive"/>
+			<item value="" key="javaElement"/>
+			<item value="0" key="scope"/>
+			<item value="11" key="includeMask"/>
+			<item value="종일" key="pattern"/>
+			<item value="3" key="limitTo"/>
+			<item value="13" key="searchFor"/>
+			<list key="workingSets">
+			</list>
+		</section>
+		<section name="HISTORY1">
+			<item value="false" key="isCaseSensitive"/>
+			<item value="" key="javaElement"/>
+			<item value="0" key="scope"/>
+			<item value="11" key="includeMask"/>
+			<item value="resizeable" key="pattern"/>
+			<item value="3" key="limitTo"/>
+			<item value="13" key="searchFor"/>
+			<list key="workingSets">
+			</list>
+		</section>
+	</section>
+	<section name="completion_proposal_size">
+	</section>
+	<section name="JavaElementSearchActions">
+	</section>
+</section>

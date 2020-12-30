@@ -1,0 +1,37 @@
+package com.example.controller;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.example.domain.Criteria;
+import com.example.domain.UserVO;
+import com.example.mapper_oracle.MasterMapper;
+
+@Controller
+public class MasterController {
+	@Autowired
+	MasterMapper mapper;
+	
+	@RequestMapping("master_userManage")
+	public void master_userManage(){
+		
+	}
+	
+	@RequestMapping("mulist")
+	public List<UserVO> mulist(Criteria cri, Model model){
+	
+	}
+	@RequestMapping("master_clubManage")
+	public void master_clubManage() {
+	}
+
+	@RequestMapping("master_groupManage")
+	public void master_groupManage() {
+	}
+
+	
+}
